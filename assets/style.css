@@ -1,0 +1,521 @@
+@import url("fontawesome-all.min.css");
+@import url("https://fonts.googleapis.com/css?family=Oleo+Script:400|Open+Sans:300,300italic,600,600italic,800");
+
+.row{
+  animation: transitionIn ease-in-out 3s;
+}
+.pol{
+  animation: transitionIn ease-in-out 1s;
+
+}
+.logs{
+  position: relative;
+  animation: slidedown ease-in-out 1.5s;
+
+}
+#banner{
+  animation: slidein ease-in-out 1.5s;
+}
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX(-10deg);
+
+  }
+
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+
+  }
+}
+@keyframes slidein {
+  0% {
+    left: -1000px;
+  }
+  100%{
+    left: 0px;
+  }
+}
+@keyframes slidedown {
+  0% {
+    top: -200px;
+  }
+  100%{
+    top: 0px;
+  }
+}
+
+html, body, div, span, applet, object,
+iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite,
+code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b,
+u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby,
+section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;}
+
+  /* Header */
+
+  #header {
+    position: relative;
+  }
+
+/* Logo */
+
+  #logo {
+    display: inline-block;
+  }
+
+    #logo h1 {
+      background: #d62e3e;
+      color: #fff;
+      border-radius: 6px;
+      font-family: 'Oleo Script', serif;
+      font-weight: 400;
+      padding: 0.25em 0.2em 0.25em 0.2em;
+      font-size: 2.25em;
+      letter-spacing: 0.05em;
+      display: inline-block;
+      vertical-align: top;
+    }
+    #logo img{
+      
+      
+      height: 180px;
+      width: 350px;
+      letter-spacing: 0.05em;
+      display: inline-block;
+      vertical-align: top;
+
+
+    }
+
+
+    #logo span {
+      font-weight: 800;
+      line-height: 4.5em;
+      letter-spacing: 0.025em;
+      font-size: 0.9em;
+      vertical-align: middle;
+      margin: 0 0 0 1.25em;
+
+    }
+
+/* Nav */
+
+  #nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 0.9em;
+  }
+
+    #nav ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+      #nav ul li {
+        float: left;
+        line-height: 4.5em;
+        padding-left: 1.5em;
+      }
+
+        #nav ul li a, #nav ul li span {
+          -moz-transition: background-color .25s ease-in-out;
+          -webkit-transition: background-color .25s ease-in-out;
+          -ms-transition: background-color .25s ease-in-out;
+          transition: background-color .25s ease-in-out;
+          font-weight: 800;
+          letter-spacing: 0.025em;
+          color: #035219;
+          text-decoration: none;
+          border-radius: 6px;
+          padding: 0.5em 1em 0.5em 1em;
+        }
+
+        #nav ul li > ul {
+          display: none;
+        }
+
+        #nav ul li:hover a, #nav ul li:hover span {
+          background: #d62e3e;
+        }
+
+        #nav ul li.active a, #nav ul li.active span {
+          background: #fff;
+        }
+
+        #nav ul li.current a {
+          background: #035219;
+          color: #fff;
+        }
+
+  .dropotron {
+    background: #fff;
+    letter-spacing: 0.025em;
+    color: #696969;
+    text-decoration: none;
+    border-radius: 6px;
+    padding: 0.75em 0;
+    min-width: 15em;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1), 0 0.25em 0.25em 0.1em rgba(0, 0, 0, 0.025);
+    margin-top: calc(-0.75em + 1px);
+    margin-left: -1px;
+    list-style: none;
+    padding-left: 0;
+  }
+
+    .dropotron li {
+      border-top: solid 1px #eee;
+      line-height: 3em;
+      padding-left: 0;
+    }
+
+      .dropotron li:first-child {
+        border-top: 0;
+      }
+
+      .dropotron li > a, .dropotron li > span {
+        -moz-transition: color .25s ease-in-out, background-color .25s ease-in-out;
+        -webkit-transition: color .25s ease-in-out, background-color .25s ease-in-out;
+        -ms-transition: color .25s ease-in-out, background-color .25s ease-in-out;
+        transition: color .25s ease-in-out, background-color .25s ease-in-out;
+        text-decoration: none;
+        color: inherit;
+        display: block;
+        padding: 0 1.5em;
+      }
+
+        .dropotron li > a:hover, .dropotron li > span:hover {
+          background: #eee;
+        }
+
+      .dropotron li.active > a, .dropotron li.active > span {
+        background: #eee;
+      }
+
+    .dropotron.level-0 {
+      font-size: 0.8em;
+      margin-left: 1.5em;
+      margin-top: 0;
+    }
+
+      .dropotron.level-0:before {
+        content: '';
+        position: absolute;
+        top: -0.5em;
+        left: 1em;
+        border-bottom: solid 0.75em #ffffff;
+        border-left: solid 0.75em transparent;
+        border-right: solid 0.75em transparent;
+        z-index: 1;
+      }
+
+
+
+
+.slider-wraper {
+  width: 100vw;
+  height: 100vh;
+}
+/* Container */
+
+  .slider-wraper {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1400px;
+  }
+
+    @media screen and (max-width: 1680px) {
+
+      .slider-wraper {
+        width: 1200px;
+      }
+
+    }
+
+    @media screen and (max-width: 1280px) {
+
+      .slider-wraper {
+        width: 960px;
+      }
+
+    }
+
+    @media screen and (max-width: 980px) {
+
+      .slider-wraper {
+        width: 90%;
+      }
+
+    }
+
+    @media screen and (max-width: 736px) {
+
+      .slider-wraper {
+        width: 100%;
+      }
+
+    }
+
+.slider--item {
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slick-slide {
+  position: relative;
+  outline: none;
+  z-index: 1;
+}
+.slick-slide.slick-current {
+  z-index: 2;
+}
+
+.slick-arrow {
+  position: absolute;
+  width: 150px;
+  top: 0;
+  height: 100%;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0);
+  text-indent: -9999px;
+  z-index: 999;
+  cursor: pointer;
+}
+.slick-arrow:before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 42px;
+  height: 42px;
+  top: 50%;
+  margin-top: -21px;
+  -webkit-transition: all, 0.3s, cubic-bezier(0.55, 0, 0.1, 1) 1s ease-in-out;
+  -khtml-transition: all, 0.3s, cubic-bezier(0.55, 0, 0.1, 1) 1s ease-in-out;
+  -moz-transition: all, 0.3s, cubic-bezier(0.55, 0, 0.1, 1) 1s ease-in-out;
+  -ms-transition: all, 0.3s, cubic-bezier(0.55, 0, 0.1, 1) 1s ease-in-out;
+  -o-transition: all, 0.3s, cubic-bezier(0.55, 0, 0.1, 1) 1s ease-in-out;
+  transition: all, 0.3s, cubic-bezier(0.55, 0, 0.1, 1) 1s ease-in-out;
+}
+.slick-arrow:after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 2px;
+  width: 160px;
+  top: 50%;
+  background-color: white;
+  -webkit-transition: all, 0.4s 0.1s, cubic-bezier(0.55, 0, 0.1, 1) 1s ease-in-out;
+  -khtml-transition: all, 0.4s 0.1s, cubic-bezier(0.55, 0, 0.1, 1) 1s ease-in-out;
+  -moz-transition: all, 0.4s 0.1s, cubic-bezier(0.55, 0, 0.1, 1) 1s ease-in-out;
+  -ms-transition: all, 0.4s 0.1s, cubic-bezier(0.55, 0, 0.1, 1) 1s ease-in-out;
+  -o-transition: all, 0.4s 0.1s, cubic-bezier(0.55, 0, 0.1, 1) 1s ease-in-out;
+  transition: all, 0.4s 0.1s, cubic-bezier(0.55, 0, 0.1, 1) 1s ease-in-out;
+  opacity: 0;
+}
+.slick-arrow.slick-prev {
+  left: 0;
+}
+.slick-arrow.slick-prev:before {
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  left: 50px;
+  -webkit-transform: rotate(-45deg);
+  -khtml-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.slick-arrow.slick-prev:after {
+  left: 300px;
+}
+.slick-arrow.slick-prev:hover:before {
+  left: 120px;
+}
+.slick-arrow.slick-prev:hover:after {
+  left: 113px;
+  opacity: 1;
+  width: 80px;
+}
+.slick-arrow.slick-next {
+  right: 0;
+}
+.slick-arrow.slick-next:before {
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+  right: 50px;
+  -webkit-transform: rotate(-45deg);
+  -khtml-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.slick-arrow.slick-next:after {
+  right: 300px;
+}
+.slick-arrow.slick-next:hover:before {
+  right: 120px;
+}
+.slick-arrow.slick-next:hover:after {
+  right: 113px;
+  opacity: 1;
+  width: 80px;
+}
+
+.slick-dots {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  position: absolute;
+  bottom: 30px;
+  text-align: center;
+}
+.slick-dots li {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 6px;
+}
+.slick-dots li.slick-active button {
+  background-color: white;
+  height: 14px;
+  width: 14px;
+}
+.slick-dots li.slick-active button:hover {
+  background-color: white;
+}
+/* XLarge */
+
+  @media screen and (max-width: 1680px) {
+
+    /* Basic */
+
+      body, input, select, textarea {
+        font-size: 12pt;
+      }
+
+  }
+
+
+/* Large */
+
+  @media screen and (max-width: 1280px) {
+
+    /* Basic */
+
+      body, input, select, textarea {
+        font-size: 11pt;
+      }
+
+  }
+
+/* Medium */
+
+  #navPanel, #navToggle {
+    display: none;
+    
+  }
+
+  @media screen and (max-width: 980px) {
+
+    /* Basic */
+
+      html, body {
+        overflow-x: hidden;
+      }
+
+      body, input, select, textarea {
+        font-size: 11pt;
+      }
+
+.slick-dots li button {
+  outline: none;
+  display: block;
+  width: 18px;
+  height: 18px;
+  border: 1px solid white;
+  background-color: rgba(255, 255, 255, 0);
+  text-indent: -9999px;
+  border-radius: 100%;
+  cursor: pointer;
+  -webkit-transition: all, 0.2s, ease-in 1s ease-in-out;
+  -khtml-transition: all, 0.2s, ease-in 1s ease-in-out;
+  -moz-transition: all, 0.2s, ease-in 1s ease-in-out;
+  -ms-transition: all, 0.2s, ease-in 1s ease-in-out;
+  -o-transition: all, 0.2s, ease-in 1s ease-in-out;
+  transition: all, 0.2s, ease-in 1s ease-in-out;
+}
+.slick-dots li button:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/**offofo*/
+@import url("fontawesome-all.min.css");
+@import url("https://fonts.googleapis.com/css?family=Oleo+Script:400|Open+Sans:300,300italic,600,600italic,800");
+
+
+
+
+
+
+
+
+
+
+   
+
+   
+
+    
+
+    
+
+    /* Wrappers */
+
+      #header-wrapper {
+        padding: 3em 0 1em 0;
+        text-align: center;
+      }
+
+      #footer-wrapper {
+        padding: 6em 0 4em 0;
+      }
+
+    /* Header */
+
+      #header {
+        margin: 0 auto;
+      }
+
+    /* Logo */
+
+      #logo span {
+        display: block;
+        margin: 0;
+      }
+
+    /* Nav */
+
+      #nav {
+        display: none;
+      }
+
