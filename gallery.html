@@ -6,10 +6,43 @@
 -->
 <html>
 	<head>
-		<title>Verti by HTML5 UP</title>
+		<title>Gallery</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="shortcut icon" href="./images/logos.png" type="image" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/gallery.css" />
+		<link rel="stylesheet" href="assets/css/image.css" />
+		<link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+      integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+      integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 	</head>
 	<body class="is-preload left-sidebar">
 		<div id="page-wrapper">
@@ -19,35 +52,26 @@
 					<header id="header" class="container">
 
 						<!-- Logo -->
-							<div id="logo">
-								<h1><a href="index.html">Verti</a></h1>
-								<span>by HTML5 UP</span>
+							<div id="logo" class="log">
+								<img src="images/logos.png"  alt="" /> 
+								
+								<!--<h1><a href="index.html">Kids and Play</a></h1>-->
 							</div>
+
 
 						<!-- Nav -->
 							<nav id="nav">
-								<ul>
-									<li><a href="index.html">Welcome</a></li>
+								<ul class="pol">
+									<li class="current"><a href="index.html">Welcome</a></li>
+									
+									<li><a href="program.html">Program</a></li>
+									
 									<li>
-										<a href="#">Dropdown</a>
-										<ul>
-											<li><a href="#">Lorem ipsum dolor</a></li>
-											<li><a href="#">Magna phasellus</a></li>
-											<li>
-												<a href="#">Phasellus consequat</a>
-												<ul>
-													<li><a href="#">Lorem ipsum dolor</a></li>
-													<li><a href="#">Phasellus consequat</a></li>
-													<li><a href="#">Magna phasellus</a></li>
-													<li><a href="#">Etiam dolore nisl</a></li>
-												</ul>
-											</li>
-											<li><a href="#">Veroeros feugiat</a></li>
-										</ul>
+										<a href="gallery.html">Gallery</a>
+										
 									</li>
-									<li class="current"><a href="left-sidebar.html">Left Sidebar</a></li>
-									<li><a href="right-sidebar.html">Right Sidebar</a></li>
-									<li><a href="no-sidebar.html">No Sidebar</a></li>
+									<li><a href="aboutus.html">About Us</a></li>
+									<li><a href="contact.html">Contact Us</a></li>
 								</ul>
 							</nav>
 
@@ -55,157 +79,120 @@
 				</div>
 
 			<!-- Main -->
-				<div id="main-wrapper">
-					<div class="container">
-						<div class="row gtr-200">
-							<div class="col-4 col-12-medium">
-								<div id="sidebar">
+			<div class="main_container">
+				<div class="autoplay">
+				  <div class="intro_container">
+					<div
+					  class="intro_container_inner" 
+					  data-aos="slide-right"
+					  data-aos-duration="900"
+					  data-aos-easing="ease-out-quart"
+					>
+					  <h1></h1>
+					  <div>
+						<p class="intro_text">
+						  
+						</p>
+						<div class="intro_button_container">
+						  <a href="#features" onclick="return gotoAnchor(this);">
+							
+						  </a>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				  <div class="intro_containers">
+					<div
+					  class="intro_container_inner"
+					>
+					  <h1></h1>
+					  <div>
+						<p class="intro_text">
+						  
+						</p>
+						<div class="intro_button_container">
+						  
+						</div>
+					  </div>
+					</div>
+				  </div>
+				  <div class="intro_containerss">
+					<div
+					  class="intro_container_inner"
+					>
+					  <h1></h1>
+					  <div>
+						<p class="intro_text">
+						
+						</p>
+						<div class="intro_button_container">
+						  
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+							
 
-									<!-- Sidebar -->
-										<section>
-											<h3>Subheading</h3>
-											<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
-											Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
-											Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
-											consequat etiam.</p>
-											<footer>
-												<a href="#" class="button icon solid fa-info-circle">Find out more</a>
-											</footer>
-										</section>
+			<!-- Footer -->
+			<div id="footer-wrapper">
+				<footer id="footer" class="container">
+					<div class="row">
+						<div class="col-3 col-6-medium col-12-small">
 
-										<section>
-											<h3>Subheading</h3>
-											<ul class="style2">
-												<li><a href="#">Amet turpis, feugiat et sit amet</a></li>
-												<li><a href="#">Ornare in hendrerit in lectus</a></li>
-												<li><a href="#">Semper mod quis eget mi dolore</a></li>
-												<li><a href="#">Quam turpis feugiat sit dolor</a></li>
-												<li><a href="#">Amet ornare in hendrerit in lectus</a></li>
-												<li><a href="#">Semper mod quisturpis nisi</a></li>
-											</ul>
-										</section>
+							<!-- Links -->
+								
 
-								</div>
-							</div>
-							<div class="col-8 col-12-medium imp-medium">
-								<div id="content">
+						</div>
+						<div class="col-3 col-6-medium col-12-small" >
 
-									<!-- Content -->
-										<article>
+							<!-- Contact -->
+								<section class="widget contact last">
+									<h3>Contact Us</h3>
+									<ul>
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="+234 906614 6629" class="fa fa-phone"><span class="label"></span></a></li>
+										
+										
+									</ul>
+									<p>Suite 4F10, Fourth Floor, Katu Koma Plaza, Opp Prince and Princess Junction, Gudu, Abuja, Nigeria.
+									</p>
+								</section>
 
-											<h2>Left Sidebar</h2>
+						</div>
+						<div class="col-3 col-6-medium col-12-small">
 
-											<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
-											Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
-											Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
-											consequat etiam lorem ipsum dolor sit amet nullam.</p>
+							<!-- Links -->
+								<section class="widget links" style="text-align: center;"> 
+									<h3>Quick Links</h3>
+									<ul class="style2">
+										<li><a href="index.html" style="text-decoration: none;">Home</a></li>
+										<li><a href="program.html" style="text-decoration: none;">Program</a></li>
+										<li><a href="gallery.html" style="text-decoration: none;">Gallery</a></li>
+										<li><a href="aboutus.html" style="text-decoration: none;">About</a></li>
+										<li><a href="contact.html" style="text-decoration: none;">Contact</a></li>
+										
+									</ul>
+								</section>
 
-											<h3>More intriguing information</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus
-											justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem. Pellentesque lorem felis,
-											ultricies a bibendum id, bibendum sit amet nisl. Mauris et lorem quam. Maecenas rutrum imperdiet
-											vulputate. Nulla quis nibh ipsum, sed egestas justo. Morbi ut ante mattis orci convallis tempor.
-											Etiam a lacus a lacus pharetra porttitor quis accumsan odio. Sed vel euismod nisi. Etiam convallis
-											rhoncus dui quis euismod. Maecenas lorem tellus, congue et condimentum ac, ullamcorper non sapien.
-											Donec sagittis massa et leo semper a scelerisque metus faucibus. Morbi congue mattis mi.
-											Phasellus sed nisl vitae risus tristique volutpat. Cras rutrum commodo luctus.</p>
-
-											<p>Phasellus odio risus, faucibus et viverra vitae, eleifend ac purus. Praesent mattis, enim
-											quis hendrerit porttitor, sapien tortor viverra magna, sit amet rhoncus nisl lacus nec arcu.
-											Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt. Mauris dolor urna,
-											fringilla vel malesuada ac, dignissim eu mi. Praesent mollis massa ac nulla pretium pretium.
-											Maecenas tortor mauris, consectetur pellentesque dapibus eget, tincidunt vitae arcu.
-											Vestibulum purus augue, tincidunt sit amet iaculis id, porta eu purus.</p>
-
-										</article>
-
-								</div>
+						</div>
+						
+					</div>
+					<div class="row">
+						<div class="col-12">
+							<div id="copyright">
+								<ul class="menu">
+									<li>&copy;2023 Kids and Play. All Rights Reserved</li>
+								</ul>
 							</div>
 						</div>
 					</div>
-				</div>
-
-			<!-- Footer -->
-				<div id="footer-wrapper">
-					<footer id="footer" class="container">
-						<div class="row">
-							<div class="col-3 col-6-medium col-12-small">
-
-								<!-- Links -->
-									<section class="widget links">
-										<h3>Random Stuff</h3>
-										<ul class="style2">
-											<li><a href="#">Etiam feugiat condimentum</a></li>
-											<li><a href="#">Aliquam imperdiet suscipit odio</a></li>
-											<li><a href="#">Sed porttitor cras in erat nec</a></li>
-											<li><a href="#">Felis varius pellentesque potenti</a></li>
-											<li><a href="#">Nullam scelerisque blandit leo</a></li>
-										</ul>
-									</section>
-
-							</div>
-							<div class="col-3 col-6-medium col-12-small">
-
-								<!-- Links -->
-									<section class="widget links">
-										<h3>Random Stuff</h3>
-										<ul class="style2">
-											<li><a href="#">Etiam feugiat condimentum</a></li>
-											<li><a href="#">Aliquam imperdiet suscipit odio</a></li>
-											<li><a href="#">Sed porttitor cras in erat nec</a></li>
-											<li><a href="#">Felis varius pellentesque potenti</a></li>
-											<li><a href="#">Nullam scelerisque blandit leo</a></li>
-										</ul>
-									</section>
-
-							</div>
-							<div class="col-3 col-6-medium col-12-small">
-
-								<!-- Links -->
-									<section class="widget links">
-										<h3>Random Stuff</h3>
-										<ul class="style2">
-											<li><a href="#">Etiam feugiat condimentum</a></li>
-											<li><a href="#">Aliquam imperdiet suscipit odio</a></li>
-											<li><a href="#">Sed porttitor cras in erat nec</a></li>
-											<li><a href="#">Felis varius pellentesque potenti</a></li>
-											<li><a href="#">Nullam scelerisque blandit leo</a></li>
-										</ul>
-									</section>
-
-							</div>
-							<div class="col-3 col-6-medium col-12-small">
-
-								<!-- Contact -->
-									<section class="widget contact">
-										<h3>Contact Us</h3>
-										<ul>
-											<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-											<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-											<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-											<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-											<li><a href="#" class="icon brands fa-pinterest"><span class="label">Pinterest</span></a></li>
-										</ul>
-										<p>1234 Fictional Road<br />
-										Nashville, TN 00000<br />
-										(800) 555-0000</p>
-									</section>
-
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-12">
-								<div id="copyright">
-									<ul class="menu">
-										<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</footer>
-				</div>
-
+				</footer>
 			</div>
+
+		</div>
 
 		<!-- Scripts -->
 
@@ -216,5 +203,43 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+			<script
+			  src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"
+			  integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ=="
+			  crossorigin="anonymous"
+			  referrerpolicy="no-referrer"
+			></script>
+			<script>
+			  $(".responsive").slick({
+				infinite: true,
+				slidesToShow: 4,
+				slidesToScroll: 1,
+				autoplay: true,
+				pauseOnHover: false,
+				draggable: false,
+				speed: 4500,
+				autoplaySpeed: 40,
+				cssEase: "linear",
+			  });
+			  $('.autoplay').slick({
+				infinite: true,
+				dots: true,
+				pauseOnHover: false,
+				draggable: false,
+				autoplay: true,
+				autoplaySpeed: 3000,
+				speed: 2500
+				
+			  });
+			</script>
+			<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+			<script src="./src/scripts/base.js"></script>
+			<script src="./src/scripts/form.js"></script>
+			<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+			<script>
+			  AOS.init({ once: true });
+			</script>
 	</body>
 </html>
