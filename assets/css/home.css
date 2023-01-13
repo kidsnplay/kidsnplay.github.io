@@ -28,12 +28,60 @@
     -webkit-box-shadow: 0px 1px 5px 2px rgba(172,172,172,0.48);
     -moz-box-shadow: 0px 1px 5px 2px rgba(172,172,172,0.48);
 }
-.container .col-12-medium .feature .featured :hover{
-    box-shadow: 0px 5px 7px 5px rgba(172,172,172,0.48);
-    -webkit-box-shadow: 0px 5px 7px 5px rgba(172,172,172,0.48);
-    -moz-box-shadow: 0px 5px 5px 7px rgba(172,172,172,0.48);
-    top: -10px;
-}
-#banner-wrapper .container .row .col-12-medium .fa-arrow-circle-right{
+
+
+#features-wrapper .container .row .col-12-medium .feature .sub-featured{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/event.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* position: relative; */
+    box-sizing: border-box;
+    border-radius: 2%;
+    text-align: center;
+    
+    vertical-align: middle;
 
 }
+#features-wrapper .container .row .col-12-medium .feature .sub-featured h2{
+    text-align: center;
+    vertical-align: middle;
+    bottom: -40%;
+    position: relative;
+    color: white;
+}
+#features-wrapper .container .row .col-12-medium .feature .sub-featured1{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/sport1.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* position: relative; */
+    box-sizing: border-box;
+    border-radius: 2%;
+
+}
+#features-wrapper .container .row .col-12-medium .feature .sub-featured1 h2{
+    text-align: center;
+    vertical-align: middle;
+    bottom: -40%;
+    position: relative;
+    color: white;
+}
+#features-wrapper .container .row .col-12-medium .feature .sub-featured2{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/sport3.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* position: relative; */
+    box-sizing: border-box;
+    border-radius: 2%;
+
+}
+#features-wrapper .container .row .col-12-medium .feature .sub-featured2 h2{
+    text-align: center;
+    vertical-align: middle;
+    bottom: -40%;
+    position: relative;
+    color: white;
+}
+
