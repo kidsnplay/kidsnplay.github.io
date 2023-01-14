@@ -1263,7 +1263,7 @@ input[type=submit]:hover{
         font-size: 14px !important;
     }
     .intro_container{
-        height: 100vh;
+        height: 50vh;
         background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/klo.PNG");
         background-size: cover;
         background-repeat: no-repeat;
@@ -1282,7 +1282,7 @@ input[type=submit]:hover{
         /* font-size: 12px; */
     }
     .intro_containers{
-        height: 100vh;
+        height: 50vh;
         background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/sport1.jpg");
         background-size: cover;
         background-position: center;
@@ -1302,7 +1302,7 @@ input[type=submit]:hover{
         /* font-size: 12px; */
     }
     .intro_containerss{
-        height: 100vh;
+        height: 50vh;
         background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images/sport4.jpg");
         background-size: cover;
         background-repeat: no-repeat;
