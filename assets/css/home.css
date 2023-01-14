@@ -31,7 +31,7 @@
 
 
 #features-wrapper .container .row .col-12-medium .feature .sub-featured{
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/event.jpg");
+    background:  url("images/event.jpg");
     height: 50vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -43,7 +43,7 @@
     vertical-align: middle;
 
 }
-#features-wrapper .container .row .col-12-medium .feature .sub-featured h2{
+#features-wrapper .container .row .col-12-medium .feature .sub-featured .headingz{
     text-align: center;
     vertical-align: middle;
     bottom: -40%;
@@ -51,7 +51,7 @@
     color: white;
 }
 #features-wrapper .container .row .col-12-medium .feature .sub-featured1{
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/sport1.jpg");
+    background: url("images/sport1.jpg");
     height: 50vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -60,7 +60,7 @@
     border-radius: 2%;
 
 }
-#features-wrapper .container .row .col-12-medium .feature .sub-featured1 h2{
+#features-wrapper .container .row .col-12-medium .feature .sub-featured1 .headingz{
     text-align: center;
     vertical-align: middle;
     bottom: -40%;
@@ -68,7 +68,7 @@
     color: white;
 }
 #features-wrapper .container .row .col-12-medium .feature .sub-featured2{
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/sport3.jpg");
+    background:  url("images/sport3.jpg");
     height: 50vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -77,7 +77,7 @@
     border-radius: 2%;
 
 }
-#features-wrapper .container .row .col-12-medium .feature .sub-featured2 h2{
+#features-wrapper .container .row .col-12-medium .feature .sub-featured2 .headingz{
     text-align: center;
     vertical-align: middle;
     bottom: -40%;
