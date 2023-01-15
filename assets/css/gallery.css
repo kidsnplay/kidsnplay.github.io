@@ -34,6 +34,139 @@ a{
     
 
 }
+.intro_container1{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/kids1.JPG") fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* position: relative; */
+    box-sizing: border-box;
+    
+
+}
+.intro_container2{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/kids2.JPG") fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* position: relative; */
+    box-sizing: border-box;
+    
+
+}
+.intro_container3{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/kids3.JPG") fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* position: relative; */
+    box-sizing: border-box;
+    
+
+}
+.intro_container4{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/kids4.JPG") fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* position: relative; */
+    box-sizing: border-box;
+    
+
+}
+.intro_container5{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/kids5.JPG") fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* position: relative; */
+    box-sizing: border-box;
+    
+
+}
+.intro_container6{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/kids6.JPG") fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* position: relative; */
+    box-sizing: border-box;
+    
+
+}
+.intro_container7{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/kids7.JPG") fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* position: relative; */
+    box-sizing: border-box;
+    
+
+}
+.intro_container8{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/kids8.JPG") fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* position: relative; */
+    box-sizing: border-box;
+    
+
+}
+.intro_container9{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/kids9.JPG") fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* position: relative; */
+    box-sizing: border-box;
+    
+
+}
+.intro_container10{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/kids10.JPG") fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* position: relative; */
+    box-sizing: border-box;
+    
+
+}
+.intro_container11{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/kids11.JPG") fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* position: relative; */
+    box-sizing: border-box;
+    
+
+}
+.intro_container12{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/kids12.JPG") fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* position: relative; */
+    box-sizing: border-box;
+    
+
+}
+
 ul.slick-dots{
     bottom: 25px;
 }
@@ -1264,7 +1397,8 @@ input[type=submit]:hover{
     }
     .intro_container{
         height: 50vh;
-        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/klo.PNG");
+        
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/klom.PNG");
         background-size: cover;
         background-repeat: no-repeat;
         /* position: relative; */
@@ -1283,7 +1417,7 @@ input[type=submit]:hover{
     }
     .intro_containers{
         height: 50vh;
-        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/sport1.jpg");
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/sport10m.jpg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -1302,14 +1436,148 @@ input[type=submit]:hover{
         /* font-size: 12px; */
     }
     .intro_containerss{
-        height: 50vh;
-        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images/sport4.jpg");
+        
+        height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images/sport4m.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
         /* position: relative; */
         box-sizing: border-box;
     }
+    .intro_container1{
+        width: 100%;
+        min-height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/kids1m.JPG") fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* position: relative; */
+        box-sizing: border-box;
+        
+    
+    }
+    .intro_container2{
+        width: 100%;
+        min-height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/kids2m.JPG") fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* position: relative; */
+        box-sizing: border-box;
+        
+    
+    }
+    .intro_container3{
+        width: 100%;
+        min-height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/kids3m.JPG") fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* position: relative; */
+        box-sizing: border-box;
+        
+    
+    }
+    .intro_container4{
+        width: 100%;
+        min-height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/kids4m.JPG") fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* position: relative; */
+        box-sizing: border-box;
+        
+    
+    }
+    .intro_container5{
+        width: 100%;
+        min-height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/kids5m.JPG") fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* position: relative; */
+        box-sizing: border-box;
+        
+    
+    }
+    .intro_container6{
+        width: 100%;
+        min-height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/kids6m.JPG") fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* position: relative; */
+        box-sizing: border-box;
+        
+    
+    }
+    .intro_container7{
+        width: 100%;
+        min-height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/kids7m.JPG") fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* position: relative; */
+        box-sizing: border-box;
+        
+    
+    }
+    .intro_container8{
+        width: 100%;
+        min-height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/kids8m.JPG") fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* position: relative; */
+        box-sizing: border-box;
+        
+    
+    }
+    .intro_container9{
+        width: 100%;
+        min-height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/kids9m.JPG") fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* position: relative; */
+        box-sizing: border-box;
+        
+    
+    }
+    .intro_container10{
+        width: 100%;
+        min-height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/kids10m.JPG") fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* position: relative; */
+        box-sizing: border-box;
+        
+    
+    }
+    .intro_container11{
+        width: 100%;
+        min-height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/kids11m.JPG") fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* position: relative; */
+        box-sizing: border-box;
+        
+    
+    }
+    .intro_container12{
+        width: 100%;
+        min-height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/kids12m.JPG") fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* position: relative; */
+        box-sizing: border-box;
+        
+    
+    }
+    
     .intro_containerss .intro_container_inner{
         margin-top: 29vh;
     }
